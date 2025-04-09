@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta nome="keywords" content="login, acesso, segurança, conta">
     <title>Login | Minha Plataforma</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
     <main class="login-container">
@@ -33,8 +33,31 @@
                 <div class="forgot-password">
                       <a href="/recuperar-senha">Esqueceu sua senha?</a>
                 </div>
+
+                <div class="options">
+                    <div class="remember-me">
+                        <input type="checkbox" id="remember" name="remember">
+                        <label for="remember">Lembrar-me</label>
+                    </div>
+                </div>
+
+                <button type="submit">Entrar</button>
         </form>
         
+
+        <div class="divider">
+            <span>Ou continue com</span>
+        </div>
+
+        <div class="social-login">
+            <a href="#" class="social-btn" aria-label="Entrar com google"></a>
+            <a href="#" class="social-btn" aria-label="Entrar com facebook"></a>
+            <a href="#" class="social-btn" aria-label="Entrar com apple"></a>
+        </div>
+
+        <div class="singup-link">
+            Não tem uma conta? <a href="/cadastro">Criar conta</a>
+        </div>
    </main>
 </body>
 </html>
