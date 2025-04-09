@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta nome="description" content="Pagina de login">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta nome="keywords" content="login, acesso, segurança, conta">
+    <title>Login | Minha Plataforma</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="login-container">
+        <header>
+            <h1>Bem-vindo</h1>
+            <p class="subtitle">Entre com suas credenciais para acessar</p>
+        </header>
+
+        <form action="/login" method="POST">
+               <div class="form-group">
+                    <label for="email">Email ou Usuarios</label>
+                  <div class="input-group">
+                       <input type="email" name="email" id="email" placeholder="Seu email ou nome de Usuario"required autofocus>
+                   </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Senha</label>
+                  <div class="input-group">
+                       <input type="password" name="password" id="password" placeholder="Senha"required>
+                   </div>
+                </div>
+
+                <div class="forgot-password">
+                      <a href="/recuperar-senha">Esqueceu sua senha?</a>
+                </div>
+        </form>
+        
+   </main>
+</body>
+</html>
